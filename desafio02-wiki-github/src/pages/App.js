@@ -1,10 +1,13 @@
-
+import gitLogo from '../assets/github.png';
+import Input from '../components/Input';
+import { Container } from './styles';
 
 function App() {
   return (
-    <div className="App">
-      Olá React
-    </div>
+    <Container>
+      <img src={gitLogo} width={72} height={72} alt="Github logo" />
+      <Input />
+    </Container>
   );
 }
 
