@@ -9,6 +9,7 @@ export const InputContainer = styled.div`
     margin: 20px;
 
     input {
+        all: unset;
         width: 90%;
         height: 62px;
         background: transparent;
